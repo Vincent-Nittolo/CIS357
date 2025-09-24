@@ -56,11 +56,11 @@ fun MyApp() {
             .padding(10.dp)) {
         Row(modifier = Modifier.padding((20.dp))) {
             Spacer(modifier = Modifier.height(0.dp))
-            Text(text = "Vinny's Alarm UI", color = Color.Cyan)
-            Spacer(modifier = Modifier.width(300.dp))
-            Text(text = "+", color = Color.Cyan)
-            Spacer(modifier = Modifier.width(15.dp))
-            Text(text = ":", color = Color.Cyan)
+            Text(text = "Vinny's Alarm UI", color = Color.Cyan,fontSize = 20.sp,)
+            Spacer(modifier = Modifier.width(170.dp))
+            Text(text = "+", color = Color.Cyan,fontSize = 20.sp,)
+            Spacer(modifier = Modifier.width(20.dp))
+            Text(text = ":", color = Color.Cyan,fontSize = 20.sp,)
         }
         Button(onClick = {},
             colors = ButtonDefaults.buttonColors(
