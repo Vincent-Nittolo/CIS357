@@ -1,2 +1,2 @@
-![Original UI](image_name.png)
+![Original UI](Original_UI.jpg)
 ![New UI](image_name.png)
